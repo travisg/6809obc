@@ -1,0 +1,3 @@
+#!/bin/sh -v
+
+rm -f *.lst *.rel *.rst *.sym *.ihx *.bin

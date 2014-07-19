@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "buildling rom"
+as6809 -losxff rom main uart vectab &&
+aslink -niu rom &&
+../emu/ihextobin/build-ihextobin/ihextobin -o 0x8000 rom.ihx rom.bin
+
+# (echo "prog_uchar rom[] PROGMEM = {" > rom.h;
+#hexdump -v -e '16/1 "0x%02x, "' -e '"\n"' rom.bin >> rom.h;
+#echo "};" >> rom.h
+#)
+
+#as6809 -gloaxff main &&

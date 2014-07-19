@@ -1,0 +1,13 @@
+build-*
+*.swp
+*~
+tags
+TAGS
+cscope.out
+local.mk
+doit
+*.ihx
+*.lst
+*.rel
+*.rst
+*.bin
