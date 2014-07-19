@@ -1,0 +1,34 @@
+Partlist exported from /home/geist/eagle/6809/6809.sch at 7/14/14 10:38 PM
+
+Qty Value        Device          Package       Parts                                                  Description                                                                              
+1                JP1E            JP1           JP1                                                    JUMPER                                                                                   
+1                JP2E            JP2           JP2                                                    JUMPER                                                                                   
+1                MA04-2          MA04-2        SV2                                                    PIN HEADER                                                                               
+1   1.8432Mhz    QG5860          DIL14S        QG2                                                    CRYSTAL RESONATOR                                                                        
+5   10K          R-US_0207/10    0207/10       R1, R2, R3, R4, R5                                     RESISTOR, American symbol                                                                
+13  10uF         CPOL-USE1.8-4   E1,8-4        C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C17 POLARIZED CAPACITOR, American symbol                                                     
+1   16550        16550           DIL40         UART                                                                                                                                            
+1   1N4004       1N4004          DO41-10       D1                                                     DIODE                                                                                    
+4   1uF          C-US025-025X050 C025-025X050  C13, C14, C15, C16                                     CAPACITOR, American symbol                                                               
+1   2.1MMJACKTHM 2.1MMJACKTHM    PJ-102A       CN1                                                    2.1mm x 5.5mm THM DC jack with internal switch. Digikey part #PJ-102A, 4UCON part #05537 
+1   28C256       28C256          DIL28         EEPROM                                                 8K x 8 EEPROM                                                                            
+1   4.7K         R-US_0207/10    0207/10       R7                                                     RESISTOR, American symbol                                                                
+1   62256        62256           DIL28         RAM                                                    32KB sram                                                                                
+1   68B09P       6809            DIL40         CPU                                                    MICROCONTROLLER/MEMORY DEVICE                                                            
+1   74HC00N      74HC00N         DIL14         IC6                                                    Quad 2-input NAND gate                                                                   
+1   74HC138N     74HC138N        DIL16         IC1                                                    3-line to 8-line DECODER/DEMULTIPLEXER                                                   
+1   74HC139N     74HC139N        DIL16         IC2                                                    Dual 2-line to 4-line DECODER/DEMULTIPLEXER                                              
+1   74HC245N     74HC245N        DIL20         IC5                                                    Octal BUS TRANSCEIVER, 3-state                                                           
+2   74HC541N     74HC541N        DIL20         IC3, IC4                                               Octal BUFFER and LINE DRIVER, 3-state                                                    
+1   7805TV       7805TV          TO220V        IC7                                                    Positive VOLTAGE REGULATOR                                                               
+1   8Mhz         QG5860          DIL14S        QG1                                                    CRYSTAL RESONATOR                                                                        
+1   COM1         F09HP           F09HP         DE9                                                    SUB-D                                                                                    
+1   EXT          MA20-2          MA20-2        SV1                                                    PIN HEADER                                                                               
+1   HALT         10-XX           B3F-10XX      S4                                                     OMRON SWITCH                                                                             
+1   MAX232       MAX232          DIL16         TRANSCEIVER                                            RS232 TRANSCEIVER                                                                        
+1   NMI          10-XX           B3F-10XX      S2                                                     OMRON SWITCH                                                                             
+1   PN2222       2N2222          TO92-EBC-OVAL T1                                                     NPN TRANSISTOR                                                                           
+1   RESET        10-XX           B3F-10XX      S3                                                     OMRON SWITCH                                                                             
+1   ST1-1        ST1-1           ST1-1         S1                                                                                                                                              
+4   TPPAD1-13    TPPAD1-13       P1-13         TP1, TP2, TP3, TP4                                     Test pad                                                                                 
+9   TPTP10R      TPTP10R         TP10R         RX, TP5, TP6, TP7, TP8, TP10, TP11, TP12, TX           Test pad                                                                                 
