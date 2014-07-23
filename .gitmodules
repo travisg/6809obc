@@ -1,0 +1,3 @@
+[submodule "rom/libihex"]
+	path = rom/libihex
+	url = https://github.com/travisg/libihex.git
