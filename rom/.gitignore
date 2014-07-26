@@ -11,3 +11,4 @@ doit
 *.rel
 *.rst
 *.bin
+*.sym

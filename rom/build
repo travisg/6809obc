@@ -4,5 +4,6 @@ echo "buildling rom"
 make -C libihex &&
 as6809 -losxff rom main uart vectab &&
 aslink -niu rom &&
-libihex/ihextobin -o 0x8000 rom.ihx rom.bin
+libihex/ihextobin -o 0x8000 rom.ihx rom.bin &&
+libihex/ihextobin -o 0xc000 rom.ihx rom.c000.bin
 

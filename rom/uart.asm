@@ -46,4 +46,21 @@ uart_write:
     sta     uart_thr
     rts
 
+uart_read:
+    ldb     uart_lsr
+    andb    #0x01       ; data ready?
+    beq     uart_read   ; if bit is clear, loop
+    lda     uart_rbr
+    rts
 
+uart_write_string:
+    lda     ,x+
+    cmpa    #0
+    beq     .uart_write_string_done
+    bsr     uart_write
+    bra     uart_write_string
+
+.uart_write_string_done:
+    rts
+
+; vim: syntax=as6809:
