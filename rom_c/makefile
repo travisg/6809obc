@@ -22,31 +22,38 @@ DEPS := $(OBJS:.o=.d)
 RESULT := result.srec result.ihx result.bin result.c000.bin result.map
 RESULT := $(addprefix $(BUILDDIR)/,$(RESULT))
 
-CFLAGS:=-ffreestanding -nostdlib -nostdinc -Wall -fomit-frame-pointer -O2
+CFLAGS:=-ffreestanding -nostdlib -Wall -fomit-frame-pointer -I. -Os
+
+LIBGCC:=$(shell m6809-unknown-gcc -print-libgcc-file-name)
 
 .PHONY: all
 all: $(RESULT)
 
 $(BUILDDIR)/result.srec $(BUILDDIR)/result.map: $(OBJS) link.ld
 	@$(MKDIR)
-	lwlink --format=srec \
+	@echo linking $@
+	$(NOECHO)lwlink --format=srec \
 		-s link.ld \
-		--map=$(BUILDDIR)/result.map -o $@ $(OBJS)
+		--map=$(BUILDDIR)/result.map -o $@ $(OBJS) -lgcc -L$(dir $(LIBGCC))
 
 $(BUILDDIR)/result.ihx: $(BUILDDIR)/result.srec
 	@$(MKDIR)
-	srec_cat -Disable_Sequence_Warnings $< -Output $@ -Intel -address_length=2
+	@echo generating $@
+	$(NOECHO)srec_cat -Disable_Sequence_Warnings $< -Output $@ -Intel -address_length=2
 
 $(BUILDDIR)/result.bin: $(BUILDDIR)/result.srec
 	@$(MKDIR)
-	srec_cat -Disable_Sequence_Warnings $< -Output $@ -Binary
+	@echo generating $@
+	$(NOECHO)srec_cat -Disable_Sequence_Warnings $< -Output $@ -Binary
 
 $(BUILDDIR)/result.c000.bin: $(BUILDDIR)/result.srec
 	@$(MKDIR)
-	srec_cat -Disable_Sequence_Warnings $< -offset -0xc000 -Output $@ -Binary
+	@echo generating $@
+	$(NOECHO)srec_cat -Disable_Sequence_Warnings $< -offset -0xc000 -Output $@ -Binary
 
 $(BUILDDIR)/result.lst: $(BUILDDIR)/result.bin
-	./6809dasm -i$<  > $@
+	@echo generating $@
+	$(NOECHO)./6809dasm -i$<  > $@
 
 link.ld: # force changes to this to cause a re-link
 
