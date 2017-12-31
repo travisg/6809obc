@@ -27,8 +27,7 @@ void put_hex16(uint16_t v) {
 }
 
 uint8_t read_num_8() {
-
-
+    return 0;
 }
 
 char *readline() {

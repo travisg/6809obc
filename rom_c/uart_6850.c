@@ -26,7 +26,7 @@ void uart_write(char c) {
     uart_reg_write(1, c);
 }
 
-int uart_read() {
+int uart_read(void) {
     char stat = uart_reg_read(0);
     if ((stat & STAT_RDRF) == 0)
         return -1;
