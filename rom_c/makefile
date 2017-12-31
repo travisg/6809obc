@@ -22,7 +22,7 @@ DEPS := $(OBJS:.o=.d)
 RESULT := result.srec result.ihx result.bin result.c000.bin result.map
 RESULT := $(addprefix $(BUILDDIR)/,$(RESULT))
 
-CFLAGS:=-ffreestanding -nostdlib -Wall -W -fomit-frame-pointer -I. -Os
+CFLAGS:=-ffreestanding -nostdlib -Wall -W -fomit-frame-pointer -I. -Os -fPIC
 
 LIBGCC:=$(shell m6809-unknown-gcc -print-libgcc-file-name)
 

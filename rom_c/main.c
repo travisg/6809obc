@@ -26,10 +26,6 @@ void put_hex16(uint16_t v) {
     putchar(hexval[v & 0xf]);
 }
 
-uint8_t read_num_8() {
-    return 0;
-}
-
 char *readline() {
     static char linebuf[256];
     uint8_t pos = 0;
