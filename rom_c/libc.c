@@ -15,7 +15,7 @@ void puts(const char *str) {
     }
 }
 
-int getchar() {
+int getchar(void) {
     int c;
     while ((c = uart_read()) < 0)
         ;
