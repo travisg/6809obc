@@ -15,13 +15,13 @@ Comment4 ""
 $EndDescr
 $Sheet
 S 1000 1000 500  150 
-U 5EC37C4A
+U 60AB25C8
 F0 "6809_1" 50
 F1 "6809_1.sch" 50
 $EndSheet
 $Sheet
 S 3000 1000 500  150 
-U 5EC381AF
+U 60AB2B1E
 F0 "6809_2" 50
 F1 "6809_2.sch" 50
 $EndSheet

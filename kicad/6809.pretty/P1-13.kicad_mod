@@ -12,5 +12,5 @@
   )
   (fp_poly (pts (xy -0.3302 0.3302) (xy 0.3302 0.3302) (xy 0.3302 -0.3302) (xy -0.3302 -0.3302)) (layer F.Fab) (width 0))
   (pad TP thru_hole circle (at 0 0) (size 2.159 2.159) (drill 1.3208) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.0635))
+    (solder_mask_margin 0.0762))
 )

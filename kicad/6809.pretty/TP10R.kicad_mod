@@ -1,7 +1,7 @@
 (module TP10R (layer F.Cu) (tedit 0)
   (descr "<b>TEST PAD</b>")
-  (fp_text reference IRQ (at 0.1349 1.9901) (layer F.SilkS)
-    (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify left bottom))
+  (fp_text reference TP12 (at -0.5001 -0.5499) (layer F.SilkS) hide
+    (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
   )
   (fp_text value TPTP10R (at -0.381 0.508) (layer F.Fab)
     (effects (font (size 0.02413 0.02413) (thickness 0.00193)) (justify left bottom))
@@ -10,5 +10,5 @@
     (effects (font (size 0.95 0.95) (thickness 0.08)) (justify left bottom))
   )
   (pad TP smd roundrect (at 0 0) (size 1 1) (layers F.Cu F.Mask) (roundrect_rratio 0.5)
-    (solder_mask_margin 0.0635))
+    (solder_mask_margin 0.0762))
 )
