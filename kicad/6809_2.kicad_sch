@@ -5639,7 +5639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0da98a3d-f8b5-499a-9357-b7112bf9521f")
-		(property "Reference" "UART0"
+		(property "Reference" "UART1"
 			(at 34.925 127.635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5818,7 @@
 		(instances
 			(project "6809"
 				(path "/7a6e49c2-3250-4bbd-a184-04d1ef785227"
-					(reference "UART0")
+					(reference "UART1")
 					(unit 2)
 				)
 			)
@@ -6072,7 +6072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2aecb12c-3d90-4931-b785-1d9f66399229")
-		(property "Reference" "TRANSCEIVER0"
+		(property "Reference" "TRANSCEIVER1"
 			(at 165.1 106.045 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6222,7 +6222,7 @@
 		(instances
 			(project "6809"
 				(path "/7a6e49c2-3250-4bbd-a184-04d1ef785227"
-					(reference "TRANSCEIVER0")
+					(reference "TRANSCEIVER1")
 					(unit 1)
 				)
 			)
@@ -6473,7 +6473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e0ab63b-e8d7-4a35-a9af-b82b8e81701e")
-		(property "Reference" "TX0"
+		(property "Reference" "TX1"
 			(at 135.89 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,7 +6545,7 @@
 		(instances
 			(project "6809"
 				(path "/7a6e49c2-3250-4bbd-a184-04d1ef785227"
-					(reference "TX0")
+					(reference "TX1")
 					(unit 1)
 				)
 			)
@@ -7325,7 +7325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cfd6196-c1c3-4767-bf64-030f5f54a0f8")
-		(property "Reference" "TRANSCEIVER0"
+		(property "Reference" "TRANSCEIVER1"
 			(at 156.718 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7476,7 +7476,7 @@
 		(instances
 			(project "6809"
 				(path "/7a6e49c2-3250-4bbd-a184-04d1ef785227"
-					(reference "TRANSCEIVER0")
+					(reference "TRANSCEIVER1")
 					(unit 2)
 				)
 			)
@@ -7814,7 +7814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b66a0a9b-8c96-43b0-b3a1-5b37cc55d061")
-		(property "Reference" "UART0"
+		(property "Reference" "UART1"
 			(at 83.82 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,7 +7992,7 @@
 		(instances
 			(project "6809"
 				(path "/7a6e49c2-3250-4bbd-a184-04d1ef785227"
-					(reference "UART0")
+					(reference "UART1")
 					(unit 1)
 				)
 			)
@@ -8009,7 +8009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb4504d1-8c43-4838-9244-ca6cf0b4917b")
-		(property "Reference" "RX0"
+		(property "Reference" "RX1"
 			(at 135.89 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +8081,7 @@
 		(instances
 			(project "6809"
 				(path "/7a6e49c2-3250-4bbd-a184-04d1ef785227"
-					(reference "RX0")
+					(reference "RX1")
 					(unit 1)
 				)
 			)

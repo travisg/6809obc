@@ -14043,7 +14043,7 @@
 	)
 	(global_label "A7"
 		(shape bidirectional)
-		(at 104.14 66.04 0)
+		(at 99.06 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14053,7 +14053,7 @@
 		)
 		(uuid "29f621fd-0e3a-4426-a730-a37b562b7a09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.2554 66.04 0)
+			(at 104.1754 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17091,7 +17091,7 @@
 	)
 	(global_label "A8"
 		(shape bidirectional)
-		(at 104.14 68.58 0)
+		(at 99.06 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17101,7 +17101,7 @@
 		)
 		(uuid "be7f8968-1ab5-4fd2-8c12-e081ba26b39e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.2554 68.58 0)
+			(at 104.1754 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18468,7 +18468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "108c7d41-9a1a-4188-8299-5230de9066e4")
-		(property "Reference" "RAM0"
+		(property "Reference" "RAM1"
 			(at 172.72 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18610,7 +18610,7 @@
 		(instances
 			(project "6809"
 				(path "/55829c7b-409b-4a5e-8776-aa57fe494646"
-					(reference "RAM0")
+					(reference "RAM1")
 					(unit 1)
 				)
 			)
@@ -19371,7 +19371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24db53ee-e8eb-422b-8007-9df44d08230a")
-		(property "Reference" "CPU0"
+		(property "Reference" "CPU1"
 			(at 63.5 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19593,7 +19593,7 @@
 		(instances
 			(project "6809"
 				(path "/55829c7b-409b-4a5e-8776-aa57fe494646"
-					(reference "CPU0")
+					(reference "CPU1")
 					(unit 1)
 				)
 			)
@@ -20461,7 +20461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35976159-0eda-4b1a-bb98-ce925e699979")
-		(property "Reference" "EEPROM0"
+		(property "Reference" "EEPROM1"
 			(at 218.44 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20603,7 +20603,7 @@
 		(instances
 			(project "6809"
 				(path "/55829c7b-409b-4a5e-8776-aa57fe494646"
-					(reference "EEPROM0")
+					(reference "EEPROM1")
 					(unit 1)
 				)
 			)
@@ -21383,7 +21383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e5a7336-9a2f-40b1-951d-c0b64b71a459")
-		(property "Reference" "EEPROM0"
+		(property "Reference" "EEPROM1"
 			(at 245.745 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21526,7 +21526,7 @@
 		(instances
 			(project "6809"
 				(path "/55829c7b-409b-4a5e-8776-aa57fe494646"
-					(reference "EEPROM0")
+					(reference "EEPROM1")
 					(unit 2)
 				)
 			)
@@ -24321,7 +24321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a62f2480-c5a5-4ada-9d51-8310e185b7a8")
-		(property "Reference" "RAM0"
+		(property "Reference" "RAM1"
 			(at 194.945 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24464,7 +24464,7 @@
 		(instances
 			(project "6809"
 				(path "/55829c7b-409b-4a5e-8776-aa57fe494646"
-					(reference "RAM0")
+					(reference "RAM1")
 					(unit 2)
 				)
 			)
@@ -24776,7 +24776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad43e375-076f-4a38-b21a-18db4682bc94")
-		(property "Reference" "CPU0"
+		(property "Reference" "CPU1"
 			(at 55.245 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24999,7 +24999,7 @@
 		(instances
 			(project "6809"
 				(path "/55829c7b-409b-4a5e-8776-aa57fe494646"
-					(reference "CPU0")
+					(reference "CPU1")
 					(unit 2)
 				)
 			)
