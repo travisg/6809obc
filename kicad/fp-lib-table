@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "6809-import-fps") (type "KiCad") (uri "${KIPRJMOD}/6809-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+)
